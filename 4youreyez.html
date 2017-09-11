@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>4Your Eyez Only</title>
+
+	<link rel="stylesheet" type="text/css" href="css/javascript.fullPage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+    
+    
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section " id="section0">
+            <video autoplay loop id="video-background1" muted plays-inline>
+                <source src="videos/landing_page.mp4">
+            </video>
+            <div class="content">
+                <h1>Dreamville</h1>
+                <p class="presents">PRESENTS</p>
+                <p class="sub-header">4 Your Eyez Only Tour 2017</p>
+                <a href="#section2"><button>BOOK</button></a>
+                <p class="indicator">scroll down for more</p>
+            </div>
+        </div>
+        <div class="section" id="section1">
+            <div class="slide" id="slide1">
+                <div class="content">
+                    <h1>Get Your Tickets Now</h1>
+                    <p class="about0">J.Cole's 4 Your Eyez Only Tour 2017. Performing along side fellow Dreamville artists; Bas, Omen, and Cozz. This tour will be the largest in Dreamville history, don't miss out. Book your tickets now below.</p>
+                    <p class="about0">Scroll left or right to see the Tour Dates, and to view J.Cole's 4 Your Eyez Only Short Film.</p>
+                    <p class="indicator">scroll down to book</p>
+                </div>
+            </div>
+            <div class="slide" id="slide2">
+                <div class="content">
+                    <h1>Tour Dates</h1>
+                    <img src="images/tour_dates.jpg">
+                </div>
+            </div>
+            <div class="slide" id="slide3">
+                <div class="content">
+                    <iframe width="560px" height="600px" src="https://www.youtube.com/embed/6atNwE-uOfE" frameborder="0" allowfullscreen></iframe>
+                    <h1 class="eyez">4 Your Eyez Only</h1>
+                    <p class="about0">Watch as rapper J.Coles goes into communities suffering great tragedies, and give it's members a voice to raise concerns we see all around the world</p>
+                </div>
+            </div>
+        </div>
+        <div class="section sectionc" id="section2">
+            
+            <div class="content">
+                <h1>Book Now for J.Cole's 4 Your Eyez Only Tour</h1>
+                <p class="about0">Tickets are flying, so book now to secure your spot at one of the 50 performances on the tour. 4 Your Eyez Only Tour 2017 brought to you by Dreamville™</p>
+                <div>
+                    <input type="" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="" placeholder="Message">
+                    <button>BOOK</button>
+                    
+                </div>
+            </div>
+            <video autoplay loop id="video-background" muted plays-inline>
+                    <source src="videos/tour_dates.mp4">
+                </video>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/javascript.fullPage.js"></script>
+    <script type="text/javascript" src="js/javascript.fullPage.min.js"></script>
+    <script type="text/javascript">
+	   fullpage.initialize('#fullpage', {
+		  anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+		  menu: '#menu',
+		  css3:true
+	   });
+    </script>
+
+</body>
+</html>
